@@ -33,7 +33,7 @@ class UserTest extends TestCase
 
         $stack = array();
         $this->assertEquals(0, count($stack));
-        $this->assertEquals(2, $this->sum(1, 1));
+        $this->assertEquals(2, $this->sum(2, 1));
     }
 
     public function sum($a, $b)
@@ -43,7 +43,6 @@ class UserTest extends TestCase
         //    return $cal->add($a,$b);
         // $var = new Calculate();
         // $cal = Calculate::add($a, $b);
-        print_r('test');
-        return  $cal = 2;
+         return  ($a+$b);
     }
 }
