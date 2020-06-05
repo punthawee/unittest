@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="2" assertions="3" errors="0" failures="0" skipped="0" time="0.116728">
+    <testsuite name="Unit" tests="2" assertions="3" errors="0" failures="0" skipped="0" time="0.116728">
+      <testsuite name="Tests\Unit\UserTest" file="D:\UPSKILL\PhpUnit\#App1\laravelUnitest\tests\Unit\UserTest.php" tests="2" assertions="3" errors="0" failures="0" skipped="0" time="0.116728">
+        <testcase name="testExample" class="Tests\Unit\UserTest" classname="Tests.Unit.UserTest" file="D:\UPSKILL\PhpUnit\#App1\laravelUnitest\tests\Unit\UserTest.php" line="26" assertions="1" time="0.111030"/>
+        <testcase name="testPushAndPop" class="Tests\Unit\UserTest" classname="Tests.Unit.UserTest" file="D:\UPSKILL\PhpUnit\#App1\laravelUnitest\tests\Unit\UserTest.php" line="31" assertions="2" time="0.005698">
+          <system-out>test</system-out>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
